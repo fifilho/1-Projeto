@@ -1,0 +1,224 @@
+#centralizar{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 800px;
+}
+body{
+    /* Eu coloquei isso como comentario porque eu acho que voce n acreditaria que fiz eu usei como base o site https://www.harrypotter.com/pt
+    background-image:url(./imagens/icones/horizons_village.png),url(./imagens/icones/stars.png),linear-gradient(180deg,#15111D, #323657 121.35%);
+    background-size: contain,cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain,125% 125%;
+    color: white;
+    */
+    margin: 0px;
+    padding: 0px;
+}
+.labels{
+    display: flex;
+    justify-self: center;
+    font: normal 20px Arial;
+}
+#dados-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#conta:hover ~ .formulario{
+    opacity: 1;
+    visibility: visible;
+}
+.formulario:hover{
+    opacity: 1;
+    visibility: visible;
+}                     
+
+.formulario{
+    transition: all 0.5s ease;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 270px;
+    right: 70px;
+    top: 93px;
+}
+
+header{
+    background-color: rgb(36, 34, 154);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+    border-bottom: 3px solid rgb(69, 67, 179);
+}
+#imagens-header{
+    gap: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex: 1;
+}
+.foto-header{
+    font: normal 15px Arial;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 70px;
+    justify-content: center;
+    top: 5px;
+}
+#inicio{
+    flex: 1;
+    justify-content: flex-start;
+}
+#logo-site{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    left: 25px;
+    display: flex;
+    width: 850px;
+    height: 550px;
+    border: 2px solid rgb(52, 52, 52);
+    border-radius: 13px;
+}
+.botao{
+    display: flex;
+    position: relative;
+    top: 425px;
+    right: 155px;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    font: bold 23px Arial;
+    background-color: rgb(241, 81, 81);
+    border: solid 2px black;
+    box-shadow: 5px 2px 15px black;
+    border-radius: 75px;
+}
+.sinopse{
+    position: relative;
+    left: 65px;
+    width: 350px;
+    top: 25px;
+    
+}
+#titulo-sinp{
+    font-size: 32px;
+    text-shadow: 3px 1px 4px black;
+    justify-self: center;
+}
+#sinp{
+    font-size: 21px;
+    width: 350px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.fotos{
+    width: 900px;
+    height: 231px;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.7s;
+}
+.foto img{
+    object-fit: cover;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    border: solid 3px rgb(150, 150, 150);
+    box-shadow: 3px 3px 8px black;
+    border-radius: 15px;
+    width: 150px;
+    height: 220px;
+}
+#foto-grande img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 350px;
+    height: 500px;
+    border: 4px solid rgb(126, 126, 93);
+    border-radius: 25px;
+}
+#veja-mais{
+    cursor: pointer;
+}
+
+.precos-lojas{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 3px rgb(103, 2, 185);
+    border-radius: 4px;
+    position: relative;
+    visibility: hidden;
+    top: 25px;
+    left: 75px;
+    width: 425px;
+    height: 500px;
+    transition: opacity 0.5s ease-in-out;
+}
+.loja{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    height: 55px;
+    border: 3px solid rgb(103, 2, 185);
+    border-radius: 15px;
+}
+.loja-imagem a{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    height: 45px;
+    position: relative;
+    border-radius: 1px;
+    left: 2px ;
+    font: bold 20px Arial,Helvetica,sans-serif;
+}
+.loja-imagem h3{
+    position: relative;
+    bottom: 12px;
+}
+.preco_livro{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: bold 22px Arial;
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 25px;
+    background-color: rgb(77, 207, 60);
+    border: 5px solid rgb(67, 148, 56);
+    box-shadow: inset 0px 0px 5px rgb(48, 125, 38);
+    border-radius: 25px;
+    left: 40px;
+}
+.audio{
+    width: 50px;
+    height: 50px;
+}
+/*#conta{
+
+}
+#tabela-login{
+
+}*/
