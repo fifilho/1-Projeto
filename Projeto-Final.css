@@ -8,7 +8,7 @@
     height: 800px;
 }
 body{
-    /* Eu coloquei isso como comentario porque eu acho que voce n acreditaria que fiz eu usei como base o site https://www.harrypotter.com/pt
+    /*Eu coloquei isso como comentario porque eu acho que voce n acreditaria que fiz eu usei como base o site https://www.harrypotter.com/pt*/
     background-image:url(./imagens/icones/horizons_village.png),url(./imagens/icones/stars.png),linear-gradient(180deg,#15111D, #323657 121.35%);
     background-size: contain,cover;
     background-position: bottom;
@@ -16,7 +16,6 @@ body{
     background-attachment: fixed;
     background-size: contain,125% 125%;
     color: white;
-    */
     margin: 0px;
     padding: 0px;
 }
@@ -53,12 +52,12 @@ body{
 }
 
 header{
-    background-color: rgb(36, 34, 154);
+    background-color: rgb(3,2,42));
     display: flex;
     width: 100%;
     flex-direction: row;
     
-    border-bottom: 3px solid rgb(69, 67, 179);
+    border-bottom: 3px solid rgb(3,2,42);
 }
 #imagens-header{
     gap: 15px;
@@ -220,5 +219,6 @@ header{
 
 }
 #tabela-login{
+
 
 }*/
