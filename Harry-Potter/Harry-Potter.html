@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="Harry-Potter.css">
+    <link rel="icon" href="../Imagens-Gerais/logos/icone-site.png">
+</head>
+<body>
+
+    <header>
+        <nav class="foto-header" id="inicio">
+                <a href="../index.html"><img src="../Imagens-Gerais/icones/casinha.png" style="width: 80px; height: 70px;" alt="pag-ini" id="home"></a>
+        </nav>
+
+        <section id="logo-site">
+            <img src="../Imagens-Gerais/logos/logo-site-HP.png" alt="logo-hp" style="height: 90px; width: 270px;">
+        </section>
+
+
+        <section id="imagens-header">
+            <section class="foto-header" id="contatos">
+                <a href="https://www.instagram.com/fifilhote/" target="_blank">
+                    <img src="../Imagens-Gerais/icones/contato.png" alt="contatos" style="width: 60px; height: 60px">
+                </a>
+            </section>
+
+            <section class="foto-header" id="conta">
+                <img src="../Imagens-Gerais/icones/login.png" alt="login" class="imagem-header" style="width: 60px; height: 60px;">
+            </section>
+
+            <section class="foto-header">
+                <img src="../Imagens-Gerais/icones/musica.png" alt="alto-falante" style="width: 100%; height: 100%;" id="audio-section" class="imagem-header">
+                <audio class="audio-mp3" preload="auto">
+                    <source src="arquivos/audios/musica-harry.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <section class="formulario">
+                <form action="enviar" method="post">
+                    <div id="dados-form">
+                        <h2>Preencha seus dados</h2>
+                        <p>
+                            <label for="nome" class="labels">Nome Completo</label> <br>
+                            <input type="text" id="nome" name="nome" placeholder="Seu Nome" autocomplete="off" required>
+                            <br><br>
+                            <label for="nome" class="labels">Senha</label> <br>
+                            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                        </p>
+                        <p>
+                            <button type="submit">Envie Seus Dados</button>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </header>
+    <main  id="centralizar">
+        <div id="divisao">
+            <div class="container">
+                <div id="foto-grande">
+                    <img src="imagens/livros/pedra_filo.jpg">
+                </div>
+                <article class="sinopse">
+                    <h1 id="titulo-sinp">Harry Potter e a Pedra Filosofal</h1>
+                    <p id="sinp">Harry Potter é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley.
+                        Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts,
+                        uma famosa escola especializada em formar jovens bruxos.</p>
+                </article>
+                <div class="botao" id="veja-mais">
+                    Veja Mais
+                </div>
+            </div>
+            <nav class="precos-lojas"> 
+                <div class="loja bahia">
+                    <div class="loja-imagem">
+                        <a class="bahia-img" title="Casas Bahia" target="_blank" href="https://www.casasbahia.com.br/?msockid=30369d21b0146ed53a858b91b1006f11" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/casa_bahia_logo.png">
+                            <h3>Casas Bahia</h3>
+                        </a>
+                    </div>
+                    <a class="link-bahia-item link-item" title="Casas Bahia" target="_blank" href="https://www.casasbahia.com.br/" style="color: black; text-decoration: none;">
+                        <div class="preco_livro"></div>
+                    </a>
+                </div>
+                <div class="loja bahia">
+                    <div class="loja-imagem">
+                        <a class="bahia-img" title="Casas Bahia" target="_blank" href="https://www.casasbahia.com.br/?msockid=30369d21b0146ed53a858b91b1006f11" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/casa_bahia_logo.png">
+                            <h3>Casas Bahia</h3>
+                        </a>
+                    </div>
+                    <a class="link-bahia-item link-item" title="Casas Bahia" target="_blank" href="https://www.casasbahia.com.br/" style="color: black; text-decoration: none;">
+                        <div class="preco_livro"></div>
+                    </a>
+                </div>
+                <div class="loja amazon">
+                    <div class="loja-imagem">
+                        <a class="amazon-img" title="Amazon" target="_blank" href="https://www.amazon.com.br/" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/amazon_logo.png">
+                            <h3>Amazon</h3>
+                        </a>
+                    </div>
+                    <a class="link-amazon-item link-item" title="Amazon" target="_blank" href="https://www.amazon.com.br/" style="color: black; text-decoration: none;">
+                        <div class="preco_livro"></div>
+                    </a>
+                </div>
+                <div class="loja mercado_livre">
+                    <div class="loja-imagem">
+                        <a class="mercado_livre-img" title="Mercado Livre" target="_blank" href="https://www.mercadolivre.com.br/" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/mercado_livre_logo.png">
+                            <h3>Mercado Livre</h3>
+                        </a>
+                    </div>
+                    <a class="link-mercado_livre-item link-item" title="Mercado Livre" target="_blank" href="https://www.mercadolivre.com.br/" style="color: black; text-decoration: none;">
+                        <div class="preco_livro"></div>
+                    </a>
+                </div>
+
+                <div class="loja mercado_livre">
+                    <div class="loja-imagem">
+                        <a class="mercado_livre-img" title="Mercado Livre" target="_blank" href="https://www.mercadolivre.com.br/" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/mercado_livre_logo.png">
+                            <h3>Mercado Livre</h3>
+                        </a>
+                    </div>
+                    <a class="link-mercado_livre-item link-item" title="Mercado Livre" target="_blank" href="https://www.mercadolivre.com.br/" style="color: black; text-decoration: none;">
+                        <div class="preco_livro"></div>
+                    </a>
+                </div> <!-- Fazer Duplicar pelo Js porque duplicando assim fica Feio no codigo-->
+
+                <div class="loja pdf">
+                    <div class="loja-imagem">
+                        <a class="pdf-img" title="Pdf Gratis" href="https://drive.google.com/file/d/1pObpUn4jPLvGSGgD6jMSfbUonGEHTImk/view?usp=sharing" style="color: black; text-decoration: none;">
+                            <img src="imagens/logos/pdf-logo.png">
+                            <h3>Pdf</h3>
+                        </a>
+                    </div>
+                    <a class="link-pdf link-item" title="Pdf" target="_blank" href="https://drive.google.com/file/d/1pObpUn4jPLvGSGgD6jMSfbUonGEHTImk/view?usp=sharing" style="color: black; text-decoration: none;">
+                        <div class="preco_livro">Gratis</div>
+                    </a>
+                </div>
+            </nav>
+
+            <section class="fotos">
+                <ul id="lista">
+                    <li><div class="foto"><img src="imagens/livros/pedra_filo.jpg"></div></li>
+                    <li><div class="foto"><img src="imagens/livros/camera_sec.png"></div></li>
+                    <li><div class="foto"><img src="imagens/livros/azkaban.jpg"></div></li>
+                    <li><div class="foto"><img src="imagens/livros/calice_de_fogo.jpg"></div></li>
+                    <li><div class="foto"><img src="imagens/livros/fenix.jpg"></div></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <span>
+            Vindo De Hogwarts&trade;
+        </span>
+        <span>
+            PotterBook&reg;
+        </span>
+        <span>
+            @fifilhote
+        </span>
+    </footer>
+    <script src="Harry-Potter.js"></script>
+</body>
+</html>

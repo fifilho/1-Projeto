@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="Site-Principal/Pagina-Inicial.css">
+    <link rel="icon" href="Imagens-Gerais/logos/icone-site.png">
+</head>
+<body>
+    <header>
+        <section id="foto-header-contato">
+            <nav class="foto-header" id="contatos" style="flex: 1; justify-content: flex-start;">
+                <a href="https://www.instagram.com/fifilhote/" target="_blank">
+                    <img src="Imagens-Gerais/icones/contato.png" alt="contatos" style="width: 100%; height: 100%">
+                </a>
+            </nav>
+        </section>
+
+        <center>
+            <section id="logo-site">
+                <img src="Imagens-Gerais/logos/Cats&Books-Rc.png" alt="Logo">
+            </section>
+        </center>
+
+        <section id="imagens-header">
+            
+            <section class="foto-header" id="conta">
+                <img src="Imagens-Gerais/icones/login.png" alt="login" class="imagem-header" style="width: 100%; height: 100%;">
+            </section>
+
+            <section class="foto-header">
+                <img src="Imagens-Gerais/icones/musica.png" alt="alto-falante" style="width: 100%; height: 100%;" id="audio-section" class="imagem-header">
+                <audio class="audio-mp3" preload="metadata">
+                    <source src="Site-Principal/musica/lofi.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <section class="formulario">
+                <form action="enviar" method="post">
+                    <div id="dados-form">
+                        <h2>Preencha seus dados</h2>
+                        <p>
+                            <label for="nome" class="labels">Nome Completo</label> <br>
+                            <input type="text" id="nome" name="nome" placeholder="Seu Nome" autocomplete="off" required>
+                            <br><br>
+                            <label for="nome" class="labels">Senha</label> <br>
+                            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                        </p>
+                        <p>
+                            <button type="submit">Envie Seus Dados</button>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <a href="Harry-Potter/Harry-Potter.html" class="caixa">
+                <img src="Site-Principal/livros/pedra_filo.jpg" alt="Harry Potter" class="fotos">
+            </a>
+            <!--COLOCAR DEPOIS MAS N COLOCAR AGORA PQ FALTA 3 DIAS PRA ENTREGAR O TRABALHO-->
+            <!--
+            <a href="#" class="caixa">
+                <img src="Site-Principal/livros/percy_jackson.jpg" alt="Percy Jackson" class="fotos">
+            </a>
+            <a href="#" class="caixa">
+                <img src="Site-Principal/livros/alice_no_pais.jpg" alt="Alice no País das Maravilhas" class="fotos">
+            </a>
+            -->
+        </div>
+    </main>
+    <footer>
+        <span>
+            Cats&Books&reg;
+        </span>
+        <span>
+            O Melhor Site Do Mundo
+        </span>
+        <span>
+            @fifilhote
+        </span>
+    </footer>
+    <script src="Site-Principal/Pagina-inicial.js"></script>
+</body>
+</html>
